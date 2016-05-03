@@ -11,3 +11,6 @@ import scrapy
 class FdroidItem(scrapy.Item):
    title = scrapy.Field()
    link = scrapy.Field()
+
+class PermissionItem(scrapy.Item):
+   permission = scrapy.Field()
